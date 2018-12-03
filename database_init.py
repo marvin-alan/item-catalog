@@ -11,27 +11,27 @@ session = DBSession()
 categories = [
     ['Doctor',
         [{'name': 'Bad News',
-          'description': 'Doctor: I have good news and bad news. Patient: Go with the good news first. Doctor: You have 24 hours to live. Patient: What!?! How about the bad news? Doctor: Um... I forgot to tell you yesterday.'},
+          'description': 'Doctor: I have good news and bad news.'},
          {'name': 'At the Pharmacy',
-          'description': 'Woman: Can I get Viagra here? Pharmacist: Yes. Woman: Can I get it over the counter? Pharmacist: If you give me two of them, you can.'},
+          'description': 'Woman: Can I get Viagra here? Pharmacist: Maybe.'},
          {'name': 'Dental Plan',
-          'description': 'I finally have a dental plan. I chew on the other side.'},
+          'description': 'I finally got dental plan. I chew the other side.'},
          {'name': 'Dirty Knees',
-          'description': 'Q: What do you call a nurse with dirty knees? A: The head nurse.'}]],
+          'description': 'Q: What do you call a nurse with dirty knees?.'}]],
     ['Food',
         [{'name': 'Beer Nuts vs Deer Nuts',
-          'description': 'Q: Whats the difference between beer nuts and deer nuts? A: Beer nuts are $1.39, and deer nuts are under a buck.'}]],
+          'description': 'Beer nuts are 1.39, deer nuts are under a buck.'}]],
     ['Kids',
         [{'name': 'A joke of genius',
-          'description': 'Q: What did the DNA say to the other DNA? A: Do these genes make my butt look fat.'},
+          'description': 'Do these genes make my butt look fat.'},
          {'name': 'Musical Chairs',
-          'description': 'Q: What did one chair say to another chair? A: Here comes another a**hole.'}]],
+          'description': 'Q: What did one chair say to another chair?'}]],
     ['Marriage',
         [{'name': 'Modern Science',
-          'description': 'Q: What food diminishes a womans sex drive by 90%? A: Her wedding cake.'}]],
+          'description': 'What food diminishes a womans sex drive by 90%?'}]],
     ['Work',
         [{'name': 'For the unemployed',
-          'description': 'A man went to apply for a job. After filling out his applications, he waited anxiously for the outcome. The employer said, We have an opening for people like you. Oh, thats great, the man exclaimed. What is it? The employer answered, Its called the door.'}]]
+          'description': 'A man went to apply for a job.'}]]
 ]
 
 current_user = User(name="Admin", email="admin@test.com")
